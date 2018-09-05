@@ -4,9 +4,12 @@ var particles_b = [];
 var particles_c = [];
 var nums = 10;
 var noiseScale = 100;
+var canvas;
 
 function setup(){
-	createCanvas(windowWidth, windowHeight);
+	canvas = createCanvas(windowWidth, windowHeight);
+	canvas.position(0,0);
+	canvas.style('z-index', -1);
 	background(0);
 	nums = windowWidth/200;
 	for(var i = 0; i < nums; i++){
