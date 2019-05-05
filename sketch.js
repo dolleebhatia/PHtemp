@@ -72,3 +72,7 @@ function Particle(x, y){
 		ellipse(this.pos.x, this.pos.y, r*100, r*100);
 	}
 }
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+	background(0);
+}

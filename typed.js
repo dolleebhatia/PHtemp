@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function prettyLog(str) {
-  console.log('%c ' + str, 'color: green; font-weight: bold;');
+  //console.log('%c ' + str, 'color: green; font-weight: bold;');
 }
 
 function toggleLoop(typed) {
